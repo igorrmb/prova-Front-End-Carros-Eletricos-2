@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mundo dos Carros Elétricos - Dados</title>
+</head>
+<body>
+
+    <header>
+        <h1>Portal Carros Elétricos</h1>
+        <p>Dados, tabelas e vídeos demonstrativos.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pagina2.html">Modelos e Dados</a></li>
+            <li><a href="pagina3.html">Contato e Opinião</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Comparativo de Modelos Reais</h2>
+            <p>Abaixo apresentamos dados reais de autonomia e bateria de alguns modelos famosos.</p>
+            
+            <!-- Tabela 3x3 com Rowspan (juntando linhas iguais) -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Modelo do Carro</th>
+                        <th>Capacidade da Bateria</th>
+                        <th>Autonomia Média</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BYD Dolphin</td>
+                        <td>44.9 kWh</td>
+                        <td>291 km</td>
+                    </tr>
+                    <tr>
+                        <td>GWM Ora 3</td>
+                        <td>48 kWh</td>
+                        <td>310 km</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla Model 3</td>
+                        <td rowspan="2">60 kWh</td>
+                        <td>438 km</td>
+                    </tr>
+                    <tr>
+                        <td>Modelo Genérico Premium</td>
+                        <td>400 km</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Demonstração em Vídeo</h2>
+            <p>Assista a um pequeno clipe sobre o funcionamento dos motores elétricos:</p>
+            <!-- Vídeo local puxado da pasta video/ -->
+            <video src="video/comercial.mp4" controls width="400">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+        </section>
+
+        <section>
+            <h2>Perguntas Frequentes</h2>
+            <details>
+                <summary>Quanto tempo demora para carregar?</summary>
+                <p>Em tomadas residenciais comuns pode demorar até 12 horas, mas em carregadores rápidos de rua (eletropostos) leva cerca de 30 a 40 minutos.</p>
+            </details>
+            <details>
+                <summary>A bateria vicia rápido?</summary>
+                <p>Não. As baterias modernas são feitas para durar mais de 10 anos ou cerca de 300.000 km rodados.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Trabalho de HTML feito por um Aluno Iniciante.</p>
+    </footer>
+
+</body>
+</html>

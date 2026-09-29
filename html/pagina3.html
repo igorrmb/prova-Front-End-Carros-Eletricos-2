@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mundo dos Carros Elétricos - Contato</title>
+</head>
+<body>
+
+    <header>
+        <h1>Portal Carros Elétricos</h1>
+        <p>Faça parte da nossa comunidade e envie suas sugestões.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pagina2.html">Modelos e Dados</a></li>
+            <li><a href="pagina3.html">Contato e Opinião</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Formulário de Interesse e Pesquisa</h2>
+            <p>Preencha os campos abaixo para receber novidades ou enviar seu currículo para nossa oficina parceira.</p>
+
+            <form action="#" method="POST">
+                <p>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required>
+                </p>
+
+                <p>
+                    <label for="marca-interesse">Qual marca você mais gosta?</label>
+                    <input type="text" id="marca-interesse" name="marca" list="marcas" placeholder="Escolha ou digite...">
+                    <datalist id="marcas">
+                        <option value="BYD">
+                        <option value="GWM">
+                        <option value="Tesla">
+                        <option value="Volvo">
+                        <option value="Nissan">
+                    </datalist>
+                </p>
+
+                <p>
+                    <label for="data-teste">Data desejada para um Test Drive:</label>
+                    <input type="date" id="data-teste" name="data-teste" required>
+                </p>
+
+                <p>
+                    <label for="satisfacao">O quanto você apoia a troca para carros elétricos (0 a 10)?</label>
+                    <input type="range" id="satisfacao" name="satisfacao" min="0" max="10">
+                </p>
+
+                <p>
+                    <label for="curriculo">Envie sua foto com seu carro ou currículo (Apenas imagem/PDF):</label>
+                    <input type="file" id="curriculo" name="curriculo">
+                </p>
+
+                <p>
+                    <button type="submit">Enviar Formulário</button>
+                    <button type="reset">Limpar Tudo</button>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h2>Informações Adicionais</h2>
+            <figure>
+                <img src="img/carro2.jpg" alt="Interior tecnológico de um carro elétrico" width="300">
+                <figcaption>Figura 2: Painel digital interativo de um veículo moderno.</figcaption>
+            </figure>
+
+            <details>
+                <summary>Regras de envio do arquivo</summary>
+                <p>Certifique-se de que o arquivo não passe de 5MB para evitar erros no envio do formulário escolar.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Trabalho de HTML feito por um Aluno Iniciante.</p>
+    </footer>
+
+</body>
+</html>
